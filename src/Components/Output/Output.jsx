@@ -10,7 +10,7 @@ const Output = (props) => {
       {props.user.map((u) => {
         return (
           <OutputList
-            key={u.username}
+            key={u.id}
             username={u.username}
             age={u.age}
             onDelete={deleteHandler}

@@ -6,14 +6,17 @@ import Output from './Components/Output/Output';
 
 const DUMMY_USER = [
   {
+    id: 'u1',
     username: 'arif2',
     age: 23,
   },
   {
+    id: 'u2',
     username: 'adi12',
     age: 35,
   },
   {
+    id: 'u3',
     username: 'adi122',
     age: 35,
   },
